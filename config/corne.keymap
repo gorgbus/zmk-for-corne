@@ -36,69 +36,16 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        left_bkt {
-            bindings = <&kp RA(F)>;
-            key-positions = <4 3>;
-            timeout-ms = <50>;
-        };
-
-        right_bkt {
-            bindings = <&kp RA(G)>;
-            key-positions = <7 8>;
-            timeout-ms = <50>;
-        };
-
-        left_par {
-            bindings = <&kp LS(LEFT_BRACKET)>;
-            key-positions = <15 16>;
-            timeout-ms = <50>;
-        };
-
-        right_par {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <19 20>;
-            timeout-ms = <50>;
-        };
-
-        left_brace {
-            bindings = <&kp RA(B)>;
-            key-positions = <27 28>;
-            timeout-ms = <50>;
-        };
-
-        right_brace {
-            bindings = <&kp RA(N)>;
-            key-positions = <32 31>;
-            timeout-ms = <50>;
-        };
-
-        bac {
-            bindings = <&kp RA(Q)>;
-            key-positions = <5 6>;
-        };
-
-        pipe {
-            bindings = <&kp LA(W)>;
-            key-positions = <17 18>;
-        };
-
-        amp {
-            bindings = <&kp LA(C)>;
-            key-positions = <29 30>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp EQUAL      &kp Q           &kp W           &kp E        &kp R             &kp T      &kp Z          &kp U         &kp I        &kp O            &kp P               &kp BSPC
-&kp LS(EQUAL)  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G      &kp H          &hm RSHIFT J  &hm RCTRL K  &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LSHFT      &kp Y           &kp X           &kp C        &kp V             &kp B      &kp N          &kp M         &kp COMMA    &kp DOT          &kp FSLH            &kp ESC
+&kp EQUAL      &kp Q           &kp W           &kp E        &kp R             &kp T      &kp Z          &kp U         &kp I        &kp O           &kp P               &kp BSPC
+&kp LS(EQUAL)  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G      &kp H          &hm RSHIFT J  &hm RCTRL K  &hm LEFT_ALT L  &hm RGUI SEMICOLON  &kp SQT
+&kp LSHFT      &kp Y           &kp X           &kp C        &kp V             &kp B      &kp N          &kp M         &kp COMMA    &kp DOT         &kp FSLH            &kp ESC
                                                &kp TAB      &lt 2 ESCAPE      &kp SPACE  &kp BACKSPACE  &lt 1 ENTER   &sl 3
             >;
         };
