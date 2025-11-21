@@ -61,7 +61,7 @@
 
         raise_layer {
             bindings = <
-&trans  &kp RA(GRAVE)         &kp RA(COMMA)  &kp RA(DOT)   &kp KP_MINUS  &kp RA(W)      &kp RA(NUMBER_6)  &kp RA(B)              &kp RA(N)          &kp RA(SEMICOLON)  &kp TAB            &trans
+&trans  &kp RA(GRAVE)         &kp RA(COMMA)  &kp RA(DOT)   &kp KP_MINUS  &kp RA(W)      &kp RA(NUMBER_6)  &kp RA(B)              &kp RA(N)          &kp RA(SEMICOLON)  &kp RA(Q)          &trans
 &trans  &kp LS(SINGLE_QUOTE)  &kp RA(SLASH)  &kp KP_SLASH  &kp KP_EQUAL  &kp RA(C)      &kp RA(X)         &kp LS(RIGHT_BRACKET)  &kp RIGHT_BRACKET  &kp GRAVE          &kp LS(SEMI)       &trans
 &trans  &kp RA(A)             &kp KP_PLUS    &kp RA(F)     &kp RA(G)     &kp LS(MINUS)  &kp RA(V)         &kp LS(DOT)            &kp COMMA          &kp DOT            &kp LS(BACKSLASH)  &trans
                                              &trans        &trans        &trans         &trans            &trans                 &trans
